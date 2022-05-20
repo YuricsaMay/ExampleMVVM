@@ -17,4 +17,5 @@ class GetQuotesUseCase @Inject constructor(private val repository: QuoteReposito
             repository.getAllQuotesFromDatabase()
         }
     }
+
 }
